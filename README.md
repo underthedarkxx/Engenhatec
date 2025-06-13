@@ -48,7 +48,7 @@ engenhatech/
 
 1. **Clone o repositório:**
    ```bash
-   git clone https://github.com/seu-usuario/engenhatech.git
+   git clone https://github.com/underthedarkxx/engenhatech.git
    cd engenhatech
    ```
 
