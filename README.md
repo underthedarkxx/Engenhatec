@@ -60,6 +60,7 @@ engenhatech/
 
 3. **Instale as dependências do backend:**
    ```bash
+   pip install flask flask_sqlalchemy flask_jwt_extended flask_bcrypt
    pip install -r requirements.txt
    ```
 
