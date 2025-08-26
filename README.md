@@ -65,7 +65,7 @@ engenhatech/
 
 4. **Execute a aplicação:**
    ```bash
-   python backend/app.py
+   engenhatech$ python3 run.py
    ```
 
 5. **Acesse no navegador:**
