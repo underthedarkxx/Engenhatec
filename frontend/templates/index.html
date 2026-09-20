@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ENGENHATECH - Materiais de Construção</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="static/css/style.css" />
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <h1 class="site-title">ENGENHATECH</h1>
+            <div class="auth-buttons" id="auth-buttons">
+                <button class="login-btn" onclick="window.location.href='/login'">Entrar</button>
+                <button class="register-btn" onclick="window.location.href='/register'">Cadastrar</button>
+            </div>
+            <div class="user-info" id="user-info" style="display: none;">
+                <span id="user-name"></span>
+                <button id="logout-btn">Sair</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="material-card">
+            <figure>
+                <img src="static/images/ZCZ3PTc0MA.jpg" alt="Blocos de construção" />
+                <figcaption>Bloco de construção utilizado em alvenaria.</figcaption>
+            </figure>
+            <div class="material-content">
+                <div class="material-header">
+                    <h3>Blocos de Construção</h3>
+                    <button class="toggle-details-btn">Ver Detalhes</button>
+                </div>
+                <div class="collapsible-content">
+                    <p>Elementos modulares essenciais para construção de paredes e muros em alvenaria.</p>
+                    <div class="specs-container">
+                        <div class="pros">
+                            <h4>Vantagens:</h4>
+                            <ul>
+                                <li>Instalação rápida</li>
+                                <li>Isolamento térmico e acústico</li>
+                                <li>Variedade de tamanhos e formatos</li>
+                            </ul>
+                        </div>
+                        <div class="cons">
+                            <h4>Desvantagens:</h4>
+                            <ul>
+                                <li>Requer mão de obra qualificada</li>
+                                <li>Necessita de revestimento</li>
+                                <li>Fragilidade antes da aplicação</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="brands-section">
+                        <h4>Top Marcas de Blocos:</h4>
+                        <table class="brands-table">
+                            <thead>
+                                <tr>
+                                    <th>Posição</th>
+                                    <th>Marca</th>
+                                    <th>Nota</th>
+                                    <th>Preço Médio</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Votoran</td>
+                                    <td>9.5</td>
+                                    <td>R$ 2,50/un</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Tegra</td>
+                                    <td>9.3</td>
+                                    <td>R$ 2,70/un</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Blocos Rápidos</td>
+                                    <td>6.2</td>
+                                    <td>R$ 1,80/un</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="material-card">
+            <figure>
+                <img src="static/images/laje.jpeg" alt="Laje pré-moldada com EPS" />
+                <figcaption>Laje treliçada com EPS sendo montada.</figcaption>
+            </figure>
+            <div class="material-content">
+                <div class="material-header">
+                    <h3>Lajes Pré-moldadas</h3>
+                    <button class="toggle-details-btn">Ver Detalhes</button>
+                </div>
+                <div class="collapsible-content">
+                    <p>Estruturas planas, geralmente de concreto com enchimento cerâmico ou EPS, utilizadas para criar pisos e tetos.</p>
+                    <div class="specs-container">
+                        <div class="pros">
+                            <h4>Vantagens:</h4>
+                            <ul>
+                                <li>Montagem rápida e eficiente</li>
+                                <li>Redução de custos com mão de obra e material</li>
+                                <li>Bom isolamento termoacústico (especialmente com EPS)</li>
+                            </ul>
+                        </div>
+                        <div class="cons">
+                            <h4>Desvantagens:</h4>
+                            <ul>
+                                <li>Requer planejamento preciso e escoramento adequado</li>
+                                <li>Limitações em grandes vãos (dependendo do tipo)</li>
+                                <li>Necessidade de capeamento de concreto</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="brands-section">
+                        <h4>Top Marcas de Lajes:</h4>
+                        <table class="brands-table">
+                            <thead>
+                                <tr>
+                                    <th>Posição</th>
+                                    <th>Marca</th>
+                                    <th>Nota</th>
+                                    <th>Preço Médio (m²)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>LajesProtend</td>
+                                    <td>9.6</td>
+                                    <td>R$ 80,00</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Precon</td>
+                                    <td>9.2</td>
+                                    <td>R$ 85,00</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>TecLaje</td>
+                                    <td>8.9</td>
+                                    <td>R$ 75,00</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="material-card">
+            <figure>
+                <img src="static/images/akM5VFN4NHM.jpg" alt="Pilares de concreto em construção" />
+                <figcaption>Pilares de concreto armado com esperas para vigas.</figcaption>
+            </figure>
+            <div class="material-content">
+                <div class="material-header">
+                    <h3>Pilares de Concreto</h3>
+                    <button class="toggle-details-btn">Ver Detalhes</button>
+                </div>
+                <div class="collapsible-content">
+                    <p>Elementos estruturais verticais que recebem as cargas das vigas e lajes, transferindo-as para as fundações.</p>
+                    <div class="specs-container">
+                        <div class="pros">
+                            <h4>Vantagens:</h4>
+                            <ul>
+                                <li>Alta resistência à compressão</li>
+                                <li>Durabilidade e longa vida útil</li>
+                                <li>Versatilidade em formas e tamanhos</li>
+                            </ul>
+                        </div>
+                        <div class="cons">
+                            <h4>Desvantagens:</h4>
+                            <ul>
+                                <li>Peso próprio elevado</li>
+                                <li>Requer fôrmas e escoramento durante a execução</li>
+                                <li>Tempo de cura do concreto</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="brands-section">
+                        <h4>Fornecedores (Concreto/Aço):</h4>
+                        <table class="brands-table">
+                            <thead>
+                                <tr>
+                                    <th>Posição</th>
+                                    <th>Marca/Serviço</th>
+                                    <th>Nota</th>
+                                    <th>Observação</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Engemix (Concreto)</td>
+                                    <td>9.4</td>
+                                    <td>Preço varia com projeto</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Gerdau (Aço)</td>
+                                    <td>9.7</td>
+                                    <td>Preço varia com projeto</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Concreviga (Soluções)</td>
+                                    <td>9.0</td>
+                                    <td>Preço varia com projeto</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="material-card">
+            <figure>
+                <img src="static/images/viga.jpg" alt="Estrutura com vigas de concreto" />
+                <figcaption>Estrutura pré-moldada de concreto com vigas e pilares.</figcaption>
+            </figure>
+            <div class="material-content">
+                <div class="material-header">
+                    <h3>Vigas de Concreto</h3>
+                    <button class="toggle-details-btn">Ver Detalhes</button>
+                </div>
+                <div class="collapsible-content">
+                    <p>Elementos estruturais horizontais ou inclinados que suportam lajes e paredes, transferindo as cargas para os pilares.</p>
+                    <div class="specs-container">
+                        <div class="pros">
+                            <h4>Vantagens:</h4>
+                            <ul>
+                                <li>Suporte para grandes vãos</li>
+                                <li>Integração com lajes e pilares</li>
+                                <li>Resistência a esforços de flexão</li>
+                            </ul>
+                        </div>
+                        <div class="cons">
+                            <h4>Desvantagens:</h4>
+                            <ul>
+                                <li>Complexidade na armação (se moldada in loco)</li>
+                                <li>Necessidade de fôrmas e escoramento (in loco)</li>
+                                <li>Interferência em layouts (vigas aparentes)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="brands-section">
+                        <h4>Fornecedores (Concreto/Aço/Pré-moldados):</h4>
+                        <table class="brands-table">
+                            <thead>
+                                <tr>
+                                    <th>Posição</th>
+                                    <th>Marca/Serviço</th>
+                                    <th>Nota</th>
+                                    <th>Observação</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Holcim (Concreto)</td>
+                                    <td>9.3</td>
+                                    <td>Preço varia com projeto</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>ArcelorMittal (Aço)</td>
+                                    <td>9.5</td>
+                                    <td>Preço varia com projeto</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Viga Forte (Pré-moldados)</td>
+                                    <td>8.8</td>
+                                    <td>Preço varia com projeto</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="chatbox">
+        <div class="chat-header" id="chat-header">Chat ENGENHATECH</div>
+        <div class="chat-body" id="chat-body">
+            <div class="messages" id="messages"></div>
+            <form id="chat-form">
+                <input type="text" id="chat-input" placeholder="Digite sua mensagem..." required />
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="static/js/script.js"></script>
+</body>
+</html>
